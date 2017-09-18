@@ -1,0 +1,43 @@
+{
+  "data" : {
+    "pairs" : [ {
+      "request" : {
+        "path" : {
+          "exactMatch" : "/accounts/number/1234567890"
+        },
+        "method" : {
+          "exactMatch" : "GET"
+        },
+        "destination" : {
+          "exactMatch" : "localhost:8080"
+        },
+        "scheme" : {
+          "exactMatch" : "http"
+        },
+        "query" : {
+          "exactMatch" : ""
+        },
+        "body" : {
+          "exactMatch" : ""
+        }
+      },
+      "response" : {
+        "status" : 200,
+        "body" : "{\"id\":\"5980642bc96045216447023b\",\"number\":\"1234567890\",\"balance\":1000,\"customerId\":\"1\"}",
+        "encodedBody" : false,
+        "templated" : false,
+        "headers" : {
+          "Content-Type" : [ "application/json;charset=UTF-8" ],
+          "Date" : [ "Tue, 01 Aug 2017 11:21:15 GMT" ],
+          "Hoverfly" : [ "Was-Here" ]
+        }
+      }
+    } ],
+    "globalActions" : {
+      "delays" : [ ]
+    }
+  },
+  "meta" : {
+    "schemaVersion" : "v3"
+  }
+}
